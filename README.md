@@ -14,7 +14,7 @@ I created it to improve my frontend skills 😃
 
 ## Live Demo
 
-[Live Demo Link](https://qr-component-masud.netlify.app/)
+[Live Demo Link](https://maqsud-profile-component.netlify.app/)
 
 ## Authors
 
