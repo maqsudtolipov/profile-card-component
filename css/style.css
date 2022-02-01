@@ -9,19 +9,17 @@ html {
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #969696;
 }
 
-// Layout
 main {
   background-position: center;
   background-size: contain;
   overflow: hidden;
   background-color: #19a2ae;
-
   position: relative;
   min-height: 100vh;
   display: grid;
@@ -56,58 +54,48 @@ main {
   transform: translate(25%, 50%);
 }
 
-// card
 .card {
   background-color: #fff;
   border-radius: 9px;
   overflow: hidden;
   z-index: 100;
-
-  &__pattern {
-    height: 14rem;
-    background-image: url('../images/bg-pattern-card.svg');
-  }
-
-  &__user-info {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: -5rem;
-    margin-bottom: 2rem;
-  }
-
-  &__user {
-    border-radius: 50%;
-    margin-bottom: 2.2rem;
-    box-shadow: 0 0 0 0.6rem #ffffff;
-  }
-
-  &__user-name {
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 1.2rem;
-  }
-
-  &__user-location {
-    font-size: 1.4rem;
-  }
-
-  &__user-data {
-    padding: 3.2rem 0;
-    margin-top: auto;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    border-top: 1px solid #cccccc;
-
-    p {
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
-  }
-
-  // temp
   width: 34rem;
+}
+.card__pattern {
+  height: 14rem;
+  background-image: url("../images/bg-pattern-card.svg");
+}
+.card__user-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+.card__user {
+  border-radius: 50%;
+  margin-bottom: 2.2rem;
+  box-shadow: 0 0 0 0.6rem #ffffff;
+}
+.card__user-name {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+.card__user-location {
+  font-size: 1.4rem;
+}
+.card__user-data {
+  padding: 3.2rem 0;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+}
+.card__user-data p {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 /*
@@ -117,3 +105,5 @@ main {
 ## Spacing system
 - 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+
+/*# sourceMappingURL=style.css.map */
