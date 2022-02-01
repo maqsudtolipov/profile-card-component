@@ -62,6 +62,7 @@ main {
   border-radius: 9px;
   overflow: hidden;
   z-index: 100;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 
   &__pattern {
     height: 14rem;
@@ -125,12 +126,10 @@ main {
   }
 
   .bg-pattern-top {
-
     transform: translate(-50%, -50%);
   }
 
   .bg-pattern-bottom {
-
     transform: translate(50%, 50%);
   }
 }
