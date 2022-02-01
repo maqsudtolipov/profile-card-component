@@ -98,6 +98,26 @@ main {
   font-weight: 400;
 }
 
+@media screen and (max-width: 75em) {
+  .bg-pattern-top,
+.bg-pattern-bottom {
+    width: 72rem;
+  }
+}
+@media screen and (max-width: 75em) {
+  .bg-pattern-top,
+.bg-pattern-bottom {
+    width: 72rem;
+  }
+
+  .bg-pattern-top {
+    transform: translate(-50%, -50%);
+  }
+
+  .bg-pattern-bottom {
+    transform: translate(50%, 50%);
+  }
+}
 /*
 ## Font sizes
 - 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
