@@ -1,6 +1,6 @@
 # QR component
 
-> This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+> This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
 
 ![screenshot](./images/screenshot.png)
 
@@ -10,6 +10,7 @@ I created it to improve my frontend skills 😃
 
 - HTML
 - CSS (BEM)
+- SASS
 
 ## Live Demo
 
