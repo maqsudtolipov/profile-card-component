@@ -1,0 +1,23 @@
+{
+  "name": "profile-card-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqsudtolipov/profile-card-component.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maqsudtolipov/profile-card-component/issues"
+  },
+  "homepage": "https://github.com/maqsudtolipov/profile-card-component#readme",
+  "dependencies": {
+    "sass": "^1.49.4"
+  }
+}
